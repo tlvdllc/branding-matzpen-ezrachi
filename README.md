@@ -449,6 +449,7 @@ src
 ## בונוס - דוגמאות שימוש
 
 1. [פלטפורמת מצפן אזרחי - דף הבית](examples/images/Matzpen-Ezrachi-Home-Dark-Mode.png)
+1. [פלטפורמת מצפן אזרחי - הדגמת תפריט ראשי](examples/images/Matzpen-Ezrachi-Home-Dark-Mode-Menu.png)
 2. [תמונת מסך - כהה](examples/images/me-desktop-1920-dark.png)
 3. [תמונת מסך - בהיר](examples/images/me-desktop-1920-light.png)
 4. [אנימציה - פתיח לוגו](examples/videos/matzpen-ezrachi-logo-intro.mp4)
