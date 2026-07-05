@@ -18,6 +18,7 @@
 - [הנחיות נגישות](#הנחיות-נגישות)
 - [סיכום תיקיות וקבצים](#סיכום-תיקיות-וקבצים)
 - [שינויים עתידיים](#שינויים-עתידיים)
+- [בונוס - דוגמאות שימוש](#בונוס---דוגמאות-שימוש)
 
 ---
 
@@ -109,7 +110,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 גרסאות בסיסיות ללא רקע, מתאימות לשילוב על גבי רקעים קיימים.
 
-**נתיב:** `Logomark/Base/`
+**נתיב:** `src/Logomark/Base/`
 
 | שם קובץ | גודל | שימוש מומלץ |
 |---------|------|-------------|
@@ -134,7 +135,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 האייקון בגרסה הצבעונית המלאה. מגיע בשני פורמטים: עיגול (app) וריבוע (square).
 
-**נתיב:** `Logomark/Color/`
+**נתיב:** `src/Logomark/Color/`
 
 | שם קובץ | גודל | שימוש מומלץ |
 |---------|------|-------------|
@@ -159,7 +160,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 גרסאות מותאמות לרקע בהיר (`#f1f5f9`).
 
-**נתיב:** `Logomark/Light/`
+**נתיב:** `src/Logomark/Light/`
 
 | שם קובץ | גודל | שימוש מומלץ |
 |---------|------|-------------|
@@ -184,7 +185,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 גרסאות מותאמות לרקע כהה (`#0f172a`).
 
-**נתיב:** `Logomark/Dark/`
+**נתיב:** `src/Logomark/Dark/`
 
 | שם קובץ | גודל | שימוש מומלץ |
 |---------|------|-------------|
@@ -209,7 +210,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 קבצים וקטוריים לעריכה בגודל 1024px.
 
-**נתיב:** `Logomark/Source/`
+**נתיב:** `src/Logomark/Source/`
 
 | שם קובץ | פורמט | שימוש |
 |---------|-------|-------|
@@ -227,7 +228,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 #### Light - גרסת Light Mode
 
-**נתיב:** `Logotype/Light/`
+**נתיב:** `src/Logotype/Light/`
 
 | שם קובץ | גודל | שימוש מומלץ |
 |---------|------|-------------|
@@ -239,7 +240,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 #### Dark - גרסת Dark Mode
 
-**נתיב:** `Logotype/Dark/`
+**נתיב:** `src/Logotype/Dark/`
 
 | שם קובץ | גודל | שימוש מומלץ |
 |---------|------|-------------|
@@ -251,7 +252,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 #### Source - קבצי מקור (SVG)
 
-**נתיב:** `Logotype/Source/`
+**נתיב:** `src/Logotype/Source/`
 
 | שם קובץ | פורמט | שימוש |
 |---------|-------|-------|
@@ -293,13 +294,13 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 **שימוש ב-Logomark כ-Favicon:**
 ```html
-<link rel="icon" href="Logomark/Base/me-logomark-alpha-black-16.png" sizes="16x16">
-<link rel="icon" href="Logomark/Base/me-logomark-alpha-black-32.png" sizes="32x32">
+<link rel="icon" href="src/Logomark/Base/me-logomark-alpha-black-16.png" sizes="16x16">
+<link rel="icon" href="src/Logomark/Base/me-logomark-alpha-black-32.png" sizes="32x32">
 ```
 
 **שימוש ב-Logotype באתר:**
 ```html
-<img src="Logotype/Light/me-logotype-light-256.png" 
+<img src="src/Logotype/Light/me-logotype-light-256.png" 
      alt="לוגו מצפן אזרחי" 
      width="256" 
      height="auto">
@@ -351,7 +352,7 @@ h1, h2, h3 {
 ## סיכום תיקיות וקבצים
 
 ```
-.
+src
 ├── Logomark
 │   ├── Base (14 קבצים)
 │   │   ├── me-logomark-alpha-black-1024.png
@@ -445,5 +446,14 @@ h1, h2, h3 {
 
 ---
 
+## בונוס - דוגמאות שימוש
+
+1. [פלטפורמת מצפן אזרחי - דף הבית](examples/images/Matzpen-Ezrachi-Home-Dark-Mode.png)
+2. [תמונת מסך - כהה](examples/images/me-desktop-1920-dark.png)
+3. [תמונת מסך - בהיר](examples/images/me-desktop-1920-light.png)
+4. [אנימציה - פתיח לוגו](examples/videos/matzpen-ezrachi-logo-intro.mp4)
+
+---
+
 **תאריך עדכון אחרון:** יולי 2026  
-**גרסת מסמך:** 0.1
+**גרסת מסמך:** 0.1.1
