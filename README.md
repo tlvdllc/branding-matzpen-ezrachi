@@ -2,7 +2,7 @@
 
 # מצפן אזרחי
 
-מסמך ביניים לתיאור מבנה נכסי המותג והוראות שימוש בסיסיות
+> מסמך ביניים לתיאור מבנה נכסי המותג והוראות שימוש בסיסיות
 
 ---
 
@@ -23,8 +23,6 @@
 ---
 
 ## לוגו המותג
-
-
 
 ![לוגו מצפן אזרחי](img/me-mono.png)
 
@@ -102,7 +100,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 ### 1. Logomark - סמל/אייקון המותג
 
-האייקון מייצג את "מצפן אזרחי" במצבי שימוש שונים. הוא זמין ב-4 וריאציות עיקריות:
+האייקון מייצג את "מצפן אזרחי" במצבי שימוש שונים. הוא זמין ב-5 וריאציות עיקריות:
 
 ---
 
@@ -153,6 +151,31 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 | `me-logomark-square-color-64.png` | 64px | שימוש כללי, בינוני-קטן |
 | `me-logomark-square-color-32.png` | 32px | שימוש כללי, קטן |
 | `me-logomark-square-color-16.png` | 16px | שימוש כללי, Favicon |
+
+---
+
+#### ColorLight - גרסה צבעונית על רקע בהיר
+
+האייקון בגרסה הצבעונית המלאה עם רקע בהיר מובנה (`#f1f5f9`). מגיע בשני פורמטים: עיגול (app) וריבוע (square).
+
+**נתיב:** `src/Logomark/ColorLight/`
+
+| שם קובץ | גודל | שימוש מומלץ |
+|---------|------|-------------|
+| `me-logomark-app-color-light-1024.png` | 1024px | רקע בהיר, אייקון אפליקציה |
+| `me-logomark-app-color-light-512.png` | 512px | רקע בהיר, אייקון אפליקציה |
+| `me-logomark-app-color-light-256.png` | 256px | רקע בהיר, אייקון אפליקציה |
+| `me-logomark-app-color-light-128.png` | 128px | רקע בהיר, אייקון אפליקציה |
+| `me-logomark-app-color-light-64.png` | 64px | רקע בהיר, אייקון אפליקציה |
+| `me-logomark-app-color-light-32.png` | 32px | רקע בהיר, אייקון אפליקציה |
+| `me-logomark-app-color-light-16.png` | 16px | רקע בהיר, Favicon |
+| `me-logomark-square-color-light-1024.png` | 1024px | רקע בהיר, שימוש כללי |
+| `me-logomark-square-color-light-512.png` | 512px | רקע בהיר, שימוש כללי |
+| `me-logomark-square-color-light-256.png` | 256px | רקע בהיר, שימוש כללי |
+| `me-logomark-square-color-light-128.png` | 128px | רקע בהיר, שימוש כללי |
+| `me-logomark-square-color-light-64.png` | 64px | רקע בהיר, שימוש כללי |
+| `me-logomark-square-color-light-32.png` | 32px | רקע בהיר, שימוש כללי |
+| `me-logomark-square-color-light-16.png` | 16px | רקע בהיר, Favicon |
 
 ---
 
@@ -215,6 +238,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 | שם קובץ | פורמט | שימוש |
 |---------|-------|-------|
 | `me-logomark-color-shadow-1024.svg` | SVG | עריכה, שינוי גודל, יצירת גרסאות חדשות |
+| `me-logomark-color-light-shadow-1024.svg` | SVG | עריכה, שינוי גודל, יצירת גרסאות חדשות |
 | `me-logomark-dark-shadow-1024.svg` | SVG | עריכה, שינוי גודל, יצירת גרסאות חדשות |
 | `me-logomark-light-shadow-1024.svg` | SVG | עריכה, שינוי גודל, יצירת גרסאות חדשות |
 
@@ -284,7 +308,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 | מצב | רקע | גרסה מומלצת | תיקייה |
 |------|------|-------------|--------|
 | תלוי בגוון | תלוי ברקע | Base (alpha) | `Logomark/Base/` |
-| רקע בהיר | `#f1f5f9` | Color | `Logomark/Color/` |
+| רקע בהיר | `#f1f5f9` | ColorLight | `Logomark/ColorLight/` |
 | רקע כהה | `#0f172a` | Color | `Logomark/Color/` |
 | אייקון אפליקציה | כל רקע | Color (app) | `Logomark/Color/` |
 | אתר/אפליקציה | כהה (`#0f172a`) | Dark | `Logomark/Dark/` |
@@ -354,7 +378,7 @@ h1, h2, h3 {
 ```
 src
 ├── Logomark
-│   ├── Base (14 קבצים)
+│   ├── Base
 │   │   ├── me-logomark-alpha-black-1024.png
 │   │   ├── me-logomark-alpha-black-128.png
 │   │   ├── me-logomark-alpha-black-16.png
@@ -369,7 +393,7 @@ src
 │   │   ├── me-logomark-alpha-white-32.png
 │   │   ├── me-logomark-alpha-white-512.png
 │   │   └── me-logomark-alpha-white-64.png
-│   ├── Color (14 קבצים)
+│   ├── Color
 │   │   ├── me-logomark-app-color-1024.png
 │   │   ├── me-logomark-app-color-128.png
 │   │   ├── me-logomark-app-color-16.png
@@ -384,7 +408,22 @@ src
 │   │   ├── me-logomark-square-color-32.png
 │   │   ├── me-logomark-square-color-512.png
 │   │   └── me-logomark-square-color-64.png
-│   ├── Dark (14 קבצים)
+│   ├── ColorLight
+│   │   ├── me-logomark-app-color-light-1024.png
+│   │   ├── me-logomark-app-color-light-128.png
+│   │   ├── me-logomark-app-color-light-16.png
+│   │   ├── me-logomark-app-color-light-256.png
+│   │   ├── me-logomark-app-color-light-32.png
+│   │   ├── me-logomark-app-color-light-512.png
+│   │   ├── me-logomark-app-color-light-64.png
+│   │   ├── me-logomark-square-color-light-1024.png
+│   │   ├── me-logomark-square-color-light-128.png
+│   │   ├── me-logomark-square-color-light-16.png
+│   │   ├── me-logomark-square-color-light-256.png
+│   │   ├── me-logomark-square-color-light-32.png
+│   │   ├── me-logomark-square-color-light-512.png
+│   │   └── me-logomark-square-color-light-64.png
+│   ├── Dark
 │   │   ├── me-logomark-app-dark-1024.png
 │   │   ├── me-logomark-app-dark-128.png
 │   │   ├── me-logomark-app-dark-16.png
@@ -399,7 +438,7 @@ src
 │   │   ├── me-logomark-square-dark-32.png
 │   │   ├── me-logomark-square-dark-512.png
 │   │   └── me-logomark-square-dark-64.png
-│   ├── Light (14 קבצים)
+│   ├── Light
 │   │   ├── me-logomark-app-light-1024.png
 │   │   ├── me-logomark-app-light-128.png
 │   │   ├── me-logomark-app-light-16.png
@@ -414,25 +453,26 @@ src
 │   │   ├── me-logomark-square-light-32.png
 │   │   ├── me-logomark-square-light-512.png
 │   │   └── me-logomark-square-light-64.png
-│   └── Source (3 קבצים)
+│   └── Source
+│       ├── me-logomark-color-light-shadow-1024.svg
 │       ├── me-logomark-color-shadow-1024.svg
 │       ├── me-logomark-dark-shadow-1024.svg
 │       └── me-logomark-light-shadow-1024.svg
 └── Logotype
-    ├── Dark (3 קבצים)
+    ├── Dark
     │   ├── me-logotype-dark-1024.png
     │   ├── me-logotype-dark-256.png
     │   └── me-logotype-dark-512.png
-    ├── Light (3 קבצים)
+    ├── Light
     │   ├── me-logotype-light-1024.png
     │   ├── me-logotype-light-256.png
     │   └── me-logotype-light-512.png
-    └── Source (2 קבצים)
+    └── Source
         ├── me-logotype-source-dark.svg
         └── me-logotype-source-light.svg
-
 ```
-**סה"כ: 11 תיקיות, 68 קבצים**
+
+**סה"כ: 12 תיקיות, 82 קבצים**
 
 ---
 
@@ -457,4 +497,4 @@ src
 ---
 
 **תאריך עדכון אחרון:** יולי 2026  
-**גרסת מסמך:** 0.1.1
+**גרסת מסמך:** 0.1.2
